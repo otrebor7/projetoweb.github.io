@@ -23,6 +23,11 @@ ul {
     list-style: none;
 }
 
+a, p{
+    text-decoration: none;
+    color: inherit;
+}
+
 header {
     height: calc(100vh - 150px);
     color: white;
