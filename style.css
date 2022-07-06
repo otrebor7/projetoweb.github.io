@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image:url(img/fundo1.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/fundo1.jpeg);
+}
+.body1{
+    background-image:url(img/marechal3.jpg);
+    display: block;
+    margin: 0px auto;
+}
+img{
+ display: block;
+ margin: 0px auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a, p {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    height: calc(100vh - 150px);
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    margin: auto 290px;
+}
+
+header nav p {
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin-bottom: 10px;
+    font-size: 4rem;
+}
+footer{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+.praia1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.texto1{
+    text-align: justify;
+    color: white;
+    margin: 50px;
+}
